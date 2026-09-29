@@ -1,0 +1,13 @@
+services:
+  halim-archive:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      ARCHIVE_DATA_DIR: /data
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-change-me}
+      ADMIN_SECRET: ${ADMIN_SECRET:-change-me-too}
+    volumes:
+      # مجلد دائم على الخادم: قاعدة البيانات + MP3 + الصور + النسخ الاحتياطية
+      - ./archive-data:/data

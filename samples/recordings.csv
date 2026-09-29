@@ -1,0 +1,3 @@
+song,title,recordingType,audioFile,duration,isRare,rareCategory,year,date,dateCertainty,city,country,concert,recordingSource,notes
+اسم الأغنية هنا,تسجيل حفلة,live,audio/1970/song-live.mp3,,0,,,,unknown,,,اسم الحفلة,مصدر التسجيل,
+اسم الأغنية هنا,بروفة,rehearsal,audio/rare/song-rehearsal.mp3,,1,rehearsal,,,unknown,,,,مصدر التسجيل,التاريخ غير مؤكد
